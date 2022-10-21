@@ -30,3 +30,10 @@ The website will be visible at `http://127.0.0.1:5000`.
 3. Run `docker-compose up` to launch the container and view the site at `http://127.0.0.1:5000`
 4. Inorder to relaunch the container in case of any edits to the programs run the comamnd `docker-compose up --build`
 
+<h1> File Structure </h1>
+
+1. `Server/` - Contains the necessary python files for powering the website and loading and using the SciKit Learn model for prediction
+  1. `server.py` - Main file housing the main Flask object and other endpoints required by the website
+  2. `utils.py` - Helper functions to load the pickled sklearn model and make it ready to be used for website data
+  3. `artifacts/` - Folder containing the pickled model
+2. tox.ini - Configuration file for Flake8, run flake8 using the command `flake8 <dir>`
