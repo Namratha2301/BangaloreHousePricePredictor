@@ -1,2 +1,3 @@
-# BangaloreHousePricePredictor
-Predicting house price in Bangalore based on the key features of the house like number of rooms, size in square feet etc.
+<h1 align="center"> Bangalore House Price Predictor </h1>
+
+<p> Simple website powered by a powerful model developed using <b>SciKit-Learn Package</b> </p>
