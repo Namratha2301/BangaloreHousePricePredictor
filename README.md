@@ -36,4 +36,5 @@ The website will be visible at `http://127.0.0.1:5000`.
   1. `server.py` - Main file housing the main Flask object and other endpoints required by the website
   2. `utils.py` - Helper functions to load the pickled sklearn model and make it ready to be used for website data
   3. `artifacts/` - Folder containing the pickled model
-2. tox.ini - Configuration file for Flake8, run flake8 using the command `flake8 <dir>`
+2. `tox.ini` - Configuration file for Flake8, run flake8 using the command `flake8 <dir>`
+3. `startup.sh` - Custom StartUp Command for Azure App Service
