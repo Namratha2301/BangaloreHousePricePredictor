@@ -1,7 +1,7 @@
 import utils
 from flask import Flask, request, jsonify, render_template
 
-
+utils.load_saved_artifacts()
 app = Flask(__name__)
 
 
@@ -33,7 +33,3 @@ def predict_home_price():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-
-if __name__ == "__main__":
-    utils.load_saved_artifacts()
-    app.run(host='0.0.0.0')
