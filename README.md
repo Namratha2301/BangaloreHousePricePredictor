@@ -1,6 +1,6 @@
 <h1 align="center"> Bangalore House Price Predictor </h1>
 
-<p> Simple website powered by a powerful model developed using <b>SciKit-Learn Package</b>. The website takes in basic information(parameters) like the size of the house in square feet, number of rooms and the location of the house in bangalore to predict the price of the house.</p>
+<p> Simple website powered by a powerful model developed using <b>SciKit-Learn Package</b>. The website takes in basic information(parameters) like the size of the house in square feet, number of rooms and the location of the house in bangalore to predict the price of the house. Checkout the deployed application <a href="https://bangalorehouseprice.azurewebsites.net/" >here</a> </p>
 
 <h1> Python Packages Used </h1>
   
